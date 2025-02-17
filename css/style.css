@@ -242,13 +242,13 @@ section:nth-child(even) {
   font-weight: 600;
   text-transform: uppercase;
   color: #fff;
-  background: #640096;
+  background: transparent;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .nav-lang .btn-lang:hover {
-  background: #9c70e1;
+  background: #ffffff;
   color: #fff;
 }
 
@@ -275,7 +275,7 @@ footer p {
   background-image: url("../images/banner/banner.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: absolute;
-  background-size: absolute;
+  background-size: cover;
   background-position: center center;
   height: auto;
   height: 100vh;
@@ -562,7 +562,9 @@ footer p {
   padding: 20px;
   margin-bottom: 20px;
   background: #cc85ff;
+  border-radius: 15px; /* Deixa as bordas arredondadas */
 }
+
 .service-area .service-content h4 {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -583,7 +585,7 @@ footer p {
   transition: all 0.5s ease-in-out;
 }
 .service-area .service-content:hover h4 {
-  color: #cc85ff;
+  color: #ffffff;
 }
 .service-area .service-content:hover .service-icon {
   color: #fff;
