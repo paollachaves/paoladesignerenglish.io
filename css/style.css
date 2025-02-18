@@ -275,7 +275,7 @@ footer p {
   background-image: url("../images/banner/banner.jpg");
   background-repeat: no-repeat;
   -webkit-background-size: absolute;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   height: auto;
   height: 100vh;
